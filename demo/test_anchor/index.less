@@ -1,0 +1,55 @@
+.test-wrapper{
+    width:1200px;
+    margin:0 auto;
+    .content{
+        width:100%;
+    }
+    .test-nav{
+        min-height:200px;
+        padding:10px;
+        border:1px solid #ccc;
+        background:#fff;
+       div.middle{
+        text-align: center;
+        overflow: hidden;
+        ul {
+            display: inline-block;
+            text-align: center;
+            a {
+                cursor: pointer;
+                margin-top:20px;
+            }
+            .active {
+                position: relative;
+               li {
+                color: #E14C46;
+                    &::after {
+                        content: "";
+                        width: 20%;
+                        height: 3px;
+                        position: absolute;
+                        top: 26px;
+                        left: 20px;
+                        background-color: #E14C46;
+                       
+                    }
+                }
+            }
+        }
+
+       }
+    }
+
+
+    .datepicker-input-group{
+        
+        .test-datePicker{
+            margin:10px;
+            z-index:auto;
+        }
+        .u-input-group-btn{
+            z-index:auto;
+            margin-top:8px;
+        }
+    }
+}
