@@ -6,7 +6,7 @@ import { getDay, getMonth, getYear } from './api/date';
 import * as high from './containers';
 import './static/font/iconfont.css';
 import './static/font/demo.css';
-
+//test
 const dateUtils = {
 	getDay,
 	getMonth,
